@@ -1,0 +1,167 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+#main {
+  width: 1090px;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: white;
+}
+
+header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #708090;
+}
+
+header ul li {
+  padding: 20px;
+  font-size: 10px;
+}
+
+header ul li a {
+  color: #708090;
+}
+
+a {
+  text-decoration: none;
+}
+
+#rogo {
+  padding: 200px 200px;
+}
+
+#rogo h1, #rogo p {
+  font-size: 15px;
+  text-align: center;
+}
+
+#rogo h1 a, #rogo p a {
+  color: #000000;
+}
+
+#rogo p {
+  color: #708090;
+  font-size: 8px;
+}
+
+.main-box {
+  width: 100%;
+  height: 600px;
+  margin-left: 65px;
+}
+
+.main-box .works {
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 160px;
+  margin: 0 20px 0 20px;
+}
+
+.main-box .works img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.main-box .works p {
+  text-align: left;
+  margin: 0 auto;
+  line-height: normal;
+  font-size: 8px;
+  color: #708090;
+}
+
+.profile {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile h2 {
+  font-size: 15px;
+}
+
+.profile h2 span {
+  font-size: 8px;
+}
+
+.profile p {
+  font-size: 12px;
+}
+
+footer {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #708090;
+  text-decoration: none;
+  padding: 2px;
+  border: 1px solid #708090;
+  font-size: 8px;
+}
+
+#works-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #696969;
+}
+
+#works-box .describe {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+#works-box .describe ul {
+  list-style: none;
+  color: #f5f5f5;
+  margin: 0 auto;
+}
+
+#works-box .describe ul li {
+  padding: 8px;
+  font-size: 10px;
+}
+
+#works-box p {
+  margin: 0 auto;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.works-box-item {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.works-box-item img {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.works-box-item-2 {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.works-box-item-2 img {
+  width: 300px;
+  margin: 50px auto;
+}
+/*# sourceMappingURL=style.css.map */
