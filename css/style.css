@@ -135,7 +135,7 @@ footer a {
 
 #works-box .describe {
   position: absolute;
-  top: 100px;
+  top: 20px;
   left: 30px;
 }
 
@@ -156,13 +156,19 @@ footer a {
   color: #f5f5f5;
 }
 
+.works-box-item {
+  padding-top: 90px;
+  width: 100%;
+  height: 100%;
+}
+
 .works1-box-item {
   width: 500px;
   margin: 0 auto;
 }
 
 .works1-box-item img {
-  width: 500px;
+  width: 100%;
   margin: 50px auto;
 }
 
@@ -172,7 +178,7 @@ footer a {
 }
 
 .works1-box-item-2 img {
-  width: 300px;
+  width: 100%;
   margin: 50px auto;
 }
 
@@ -182,7 +188,79 @@ footer a {
 }
 
 .works2-box-item img {
-  width: 700px;
+  width: 100%;
   margin: 50px auto;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+  #rogo {
+    width: 100%;
+    padding: 100px 0 100px 0;
+    text-align: center;
+  }
+  #main {
+    width: 280px;
+  }
+  .main-box {
+    width: 100%;
+    height: 2100px;
+    margin-left: 60px;
+  }
+  .main-box .works {
+    width: 120px;
+    height: 100px;
+    margin: 0px 20px 30px 20px;
+  }
+  .main-box .works img {
+    width: 100%;
+  }
+  #works-box {
+    position: relative;
+    width: 280px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #works-box .describe {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+  #works-box .describe ul {
+    list-style: none;
+    color: #f5f5f5;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #works-box .describe ul li {
+    padding: 4px;
+    font-size: 7px;
+  }
+  #works-box p {
+    margin: 0 auto;
+    text-align: center;
+    color: #f5f5f5;
+  }
+  .works1-box-item {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .works1-box-item img {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .works1-box-item-2 {
+    width: 150px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 7px;
+  }
+  .works2-box-item {
+    width: 280px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
