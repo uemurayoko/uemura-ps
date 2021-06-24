@@ -217,6 +217,9 @@ footer a {
   .main-box .works img {
     width: 100%;
   }
+  .main-box .works p {
+    width: 120px;
+  }
   #works-box {
     position: relative;
     width: 280px;
