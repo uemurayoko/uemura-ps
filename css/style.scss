@@ -170,23 +170,42 @@ header {
     padding: 100px 0 100px 0;
     text-align: center;
 }      
-#main,.profile,footer{
+#main,.profile,footer,header{
     width: 280px;
+    padding: 0;
 }
 .main-box{
-    width: 100%;
-    height: 2100px;
-    margin-left: 60px;
+    width: 280px;
+    padding-top: 60px;
+    height: 3100px;
+    margin: 0 auto;
     .works{
-        width: 120px;
+        width: 200px;
         height: 100px;
-        margin: 0px 20px 30px 20px;
+        margin: 0px 20px 30px 40px;
+        padding: 30px 0 30px 0;
         img{
             width: 100%;
+            margin: 0 auto;
         }
         p{
             width: 120px;
+            text-align: center;
         }
+    }
+}
+.profile{
+    margin: 0 auto;
+    text-align: center;
+    h2{
+        font-size: 15px;
+        span
+        {
+            font-size: 6px;
+        }
+    }
+    p{
+        font-size: 9px;
     }
 }
 // work-------------------------
