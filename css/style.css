@@ -91,7 +91,8 @@ a {
 }
 
 .profile {
-  padding: 20px;
+  width: 1090px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -108,7 +109,8 @@ a {
 }
 
 footer {
-  margin: 10px 20px;
+  width: 1090px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -201,7 +203,7 @@ footer a {
     padding: 100px 0 100px 0;
     text-align: center;
   }
-  #main {
+  #main, .profile, footer {
     width: 280px;
   }
   .main-box {
@@ -249,14 +251,14 @@ footer a {
   .works1-box-item {
     width: 250px;
     margin: 0 auto;
-  }
-  .works1-box-item img {
-    width: 100%;
-    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
   }
   .works1-box-item-2 {
     width: 150px;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
   }
   p {
     font-size: 7px;
@@ -264,6 +266,8 @@ footer a {
   .works2-box-item {
     width: 280px;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

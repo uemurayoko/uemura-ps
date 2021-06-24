@@ -72,7 +72,8 @@ a{
         }
     }
 .profile{
-    padding: 20px;
+    width: 1090px;
+    margin: 0 auto;
     text-align: center;
     h2{
         font-size: 15px;
@@ -86,7 +87,8 @@ a{
     }
 }
 footer{
-    margin: 10px 20px;
+    width: 1090px;
+    margin: 0 auto;
     text-align: center;
     a{
         color:#708090;
@@ -168,7 +170,7 @@ header {
     padding: 100px 0 100px 0;
     text-align: center;
 }      
-#main{
+#main,.profile,footer{
     width: 280px;
 }
 .main-box{
@@ -218,15 +220,14 @@ header {
 .works1-box-item{
     width: 250px;
     margin: 0 auto;
-    img{
-        width: 100%;
-        margin: 50px auto;
-    }
+    max-width: 100%;
+    height: auto;
 }
 .works1-box-item-2{
     width: 150px;
     margin: 0 auto;
-
+    max-width: 100%;
+    height: auto;
 }
 p{
     font-size: 7px;
@@ -235,6 +236,8 @@ p{
 .works2-box-item{
     width: 280px;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 }
