@@ -12,9 +12,24 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#main">Works</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#profile">About</a></li>
         </ul>
     </header>
+        <!-- ハンバーガーメニュー -->
+        <nav id="global-nav">
+            <ul class="global-nav_list">
+                <li class="global-nav_item"><a href="index.html">Home</a></li>
+                <li class="global-nav_item"><a href="#main">Work</a></li>
+                <li class="global-nav_item"><a href="#profile">About</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger_line" id="line1"></span>
+            <span class="hamburger_line" id="line2"></span>
+            <span class="hamburger_line" id="line3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
+      <!-- ここまで -->
     <div id="rogo">
         <h1>YOKO UEMURA</h1>
         <p>portfolio-site</p>
@@ -87,7 +102,7 @@
             </div> 
         </div>
    </div>
-        <div class="profile">
+        <div id="profile">
             <h2>上村　陽子　<span>YOKO UEMURA</span></h2> 
             <p>見やすくて印象深いデザインを作って行きたいです。</p>
         </div>
@@ -96,5 +111,7 @@
             <a href="＃">Contact</a>
         </div>
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>

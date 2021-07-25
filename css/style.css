@@ -1,3 +1,9 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -90,21 +96,21 @@ a {
   color: #708090;
 }
 
-.profile {
+#profile {
   width: 1090px;
   margin: 0 auto;
   text-align: center;
 }
 
-.profile h2 {
+#profile h2 {
   font-size: 15px;
 }
 
-.profile h2 span {
+#profile h2 span {
   font-size: 8px;
 }
 
-.profile p {
+#profile p {
   font-size: 12px;
 }
 
@@ -198,12 +204,107 @@ footer a {
   header {
     display: none;
   }
+  .hamburger {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 300;
+  }
+  .hamburger_line {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 2px;
+    background-color: #708090;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  #line1 {
+    top: 15px;
+  }
+  #line2 {
+    top: 27px;
+  }
+  #line3 {
+    top: 39px;
+  }
+  .black-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: #3f3f3f;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    cursor: pointer;
+  }
+  #global-nav {
+    position: fixed;
+    right: -320px;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    padding-top: 40px;
+    background-color: #fff;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    z-index: 200;
+    overflow-y: auto;
+  }
+  .global-nav_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .global-nav_item {
+    text-align: center;
+    padding: 0 14px;
+  }
+  .global-nav_item a {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 2px solid #f5f5f5;
+    text-decoration: none;
+    color: #708090;
+  }
+  .global-nav_item a:hover {
+    background-color: #f5f5f5;
+  }
+  /* 表示された時用のCSS */
+  .nav-open #global-nav {
+    right: 0;
+  }
+  .nav-open .black-bg {
+    opacity: .8;
+    visibility: visible;
+  }
+  .nav-open #line1 {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 20px;
+  }
+  .nav-open #line2 {
+    width: 0;
+    left: 50%;
+  }
+  .nav-open #line3 {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 20px;
+  }
   #rogo {
     width: 100%;
     padding: 100px 0 100px 0;
     text-align: center;
   }
-  #main, .profile, footer, header {
+  #main, #profile, footer, header {
     width: 280px;
     padding: 0;
   }
@@ -227,17 +328,17 @@ footer a {
     width: 120px;
     text-align: center;
   }
-  .profile {
+  #profile {
     margin: 0 auto;
     text-align: center;
   }
-  .profile h2 {
+  #profile h2 {
     font-size: 15px;
   }
-  .profile h2 span {
+  #profile h2 span {
     font-size: 6px;
   }
-  .profile p {
+  #profile p {
     font-size: 9px;
   }
   #works-box {
@@ -286,6 +387,12 @@ footer a {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #global-nav {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
