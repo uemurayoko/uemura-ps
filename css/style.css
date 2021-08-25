@@ -200,6 +200,16 @@ footer a {
   margin: 50px auto;
 }
 
+.works3-box-item {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.works3-box-item img {
+  width: 100%;
+  margin: 50px auto;
+}
+
 @media screen and (max-width: 600px) {
   header {
     display: none;
@@ -210,6 +220,7 @@ footer a {
     top: 0;
     width: 50px;
     height: 50px;
+    padding-right: 15px;
     cursor: pointer;
     z-index: 300;
   }
@@ -383,6 +394,12 @@ footer a {
     font-size: 7px;
   }
   .works2-box-item {
+    width: 280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .works3-box-item {
     width: 280px;
     margin: 0 auto;
     max-width: 100%;

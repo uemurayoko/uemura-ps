@@ -164,6 +164,15 @@ footer{
         margin: 50px auto;
     }
 }
+// ここからworks3.html
+.works3-box-item{
+    width: 700px;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        margin: 50px auto;
+    }
+}
 // レスポンシブ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 @media screen and (max-width:600px){
 header {
@@ -176,6 +185,7 @@ header {
     top: 0;
     width: 50px;
     height: 50px;
+    padding-right: 15px;
     cursor: pointer;
     z-index: 300;
 }
@@ -350,6 +360,13 @@ p{
 }
 // work2-------------------------
 .works2-box-item{
+    width: 280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+// work3-------------------------
+.works3-box-item{
     width: 280px;
     margin: 0 auto;
     max-width: 100%;
