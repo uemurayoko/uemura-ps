@@ -80,6 +80,7 @@ a{
 // 画像にホバーした時の動き
  .works:hover img{
     opacity: 0.7;
+    border-radius: 50%;
     transition-duration: 0.4s;
     } 
 #profile{
