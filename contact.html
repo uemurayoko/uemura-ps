@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="css/style.css">
+    <title>contact</title>
+</head>
+<body>
+<div class="contact">
+    <form action="" method="post">
+        <table class="contact-item">
+            <tr>
+                <th><label class="required" for="name">名前</label></th>
+                <td><input type="text" id="name" name="name" placeholder="例）田中　太郎"></td>
+            </tr>
+            <tr>
+                <th><label for="name">フリガナ</label></th>
+                <td><input type="text" id="kana" name="name" placeholder="例）タナカ　タロウ"></td>
+            </tr>
+            <tr>
+                <th><label class="required" for="email">メールアドレス</label></th>
+                <td><input type="mail" id="email"  name="email"></td>
+            </tr>
+            <tr>
+                <th><label class="required" for="message">内容</label></th>
+                <td><textarea  id="message" name="message" placeholder="こちらにご記入ください"></textarea></td>
+            </tr>
+         </table>
+         <div class="contact-button">
+            <input class="button" type="submit" value="送信">
+            <input class="button" type="reset" value="リセット">
+        </div>
+    </form>
+</div>
+</body>
+</html>

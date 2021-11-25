@@ -112,6 +112,61 @@ footer{
         font-size: 8px;
     }
 }
+.contactbtn a:hover{
+    background-color: #5b4949;
+    color: #fff;
+}
+// contact.html(問い合わせフォーム)--------------------------------------------------
+.contact{
+    padding-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-item{
+    margin: 0 auto;
+    width: 600px;
+    th{
+      width: 300px;
+      color: #fff;
+      font-size: 13px;
+      padding: 10px 20px;
+      text-align: left;
+      background-color: #5b4949;
+    }
+    th .required::after{
+        content: "※必須";
+        color: #ff0000;
+        font-size: 3px;
+        font-weight: normal;
+      }
+    td{
+      width: 400px;
+      text-align: left;
+      padding-left: 10px;
+        textarea{
+          width: 400px;
+          height: 250px;
+          padding-top: 3px;
+          }
+        input{
+        width: 300px;
+        }
+      }
+  }
+  .contact-button{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .button{
+    width: 80px;
+    height: 10ox;
+    margin-top: 20px;
+    background-color: #5b4949;
+    color: #fff;
+  }
+
+  
 // ここからwork共通------------------------------------------------------
 #wrapper{
     background-color: #696969;

@@ -140,6 +140,68 @@ footer a {
   font-size: 8px;
 }
 
+.contactbtn a:hover {
+  background-color: #5b4949;
+  color: #fff;
+}
+
+.contact {
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-item {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.contact-item th {
+  width: 300px;
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 20px;
+  text-align: left;
+  background-color: #5b4949;
+}
+
+.contact-item th .required::after {
+  content: "※必須";
+  color: #ff0000;
+  font-size: 3px;
+  font-weight: normal;
+}
+
+.contact-item td {
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.contact-item td textarea {
+  width: 400px;
+  height: 250px;
+  padding-top: 3px;
+}
+
+.contact-item td input {
+  width: 300px;
+}
+
+.contact-button {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button {
+  width: 80px;
+  height: 10ox;
+  margin-top: 20px;
+  background-color: #5b4949;
+  color: #fff;
+}
+
 #wrapper {
   background-color: #696969;
   width: 95%;
