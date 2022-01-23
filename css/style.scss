@@ -77,7 +77,7 @@ a{
             }
         }
     }
-// 画像にホバーした時の動き
+/*画像にホバーした時の動き*/
  .works:hover img{
     opacity: 0.7;
     border-radius: 50%;
@@ -116,7 +116,7 @@ footer{
     background-color: #5b4949;
     color: #fff;
 }
-// contact.html(問い合わせフォーム)--------------------------------------------------
+/*contact.html(問い合わせフォーム)--------------------------------------------------*/
 .contact{
     padding-top: 100px;
     width: 100%;
@@ -167,7 +167,7 @@ footer{
   }
 
   
-// ここからwork共通------------------------------------------------------
+/*ここからwork共通------------------------------------------------------*/
 #wrapper{
     background-color: #696969;
     width: 95%;
@@ -219,7 +219,7 @@ footer{
 }
 /***トップへ戻るボタンここまで***/
 
-// ここからworks1.html
+/*ここからworks1.html*/
 .works1-box-item-1{
     width: 500px;
     margin: 0 auto;
@@ -236,7 +236,7 @@ footer{
         margin: 50px auto;
     }
 }
-// ここからworks2.html
+/*ここからworks2.html*/
 .works2-box-item{
     width: 700px;
     margin: 0 auto;
@@ -245,7 +245,7 @@ footer{
         margin: 50px auto;
     }
 }
-// ここからworks3.html
+/*ここからworks3.html*/
 .works3-box-item{
     width: 700px;
     margin: 0 auto;
@@ -254,12 +254,44 @@ footer{
         margin: 50px auto;
     }
 }
-// レスポンシブ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/*ここからworks4.html*/
+.describe{
+    ul{
+        li{
+            a{
+                color: #b9dcff;
+               }
+            a:hover{
+                color: rgb(0, 8, 159);
+            }
+        }
+    }
+}
+a{
+    color: #708090;
+   }
+.works4-box-item-1{
+    width: 100px;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        margin: 50px auto;
+    }
+}
+.works4-box-item-2{
+    width: 800px;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        margin: 50px auto;
+    }
+}
+/*レスポンシブ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 @media screen and (max-width:600px){
 header {
 		display: none;
 }
-// ハンバーガーボタン----------------------------------
+/*ハンバーガーボタン----------------------------------*/
 .hamburger {
     position: fixed;
     right: 0;
@@ -300,7 +332,7 @@ header {
     transition: all .4s;
     cursor: pointer;
   }
-// ハンバーガーメニュー--------------------------------------------------
+/*ハンバーガーメニュー--------------------------------------------------*/
   #global-nav{
     position: fixed;
     right: -320px; 
@@ -410,7 +442,7 @@ footer{
         font-size: 8px;
     }
 }
-// work-------------------------
+/*work-------------------------*/
 #works-box{
     position: relative;
     width: 280px;
@@ -438,7 +470,7 @@ footer{
          }
 }
 
-// work1-------------------------
+/*work1-------------------------*/
 .works1-box-item-1{
     width: 250px;
     margin: 0 auto;
@@ -454,19 +486,35 @@ footer{
 p{
     font-size: 7px;
 }
-// work2-------------------------
+/*wor2-------------------------*/
 .works2-box-item{
     width: 280px;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
-// work3-------------------------
+/*work3-------------------------*/
 .works3-box-item{
     width: 280px;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+/*work4-------------------------*/
+.works4-box-item-1{
+    width: 50px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.works4-box-item-2{
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+p{
+    font-size: 7px;
 }
 
 }
